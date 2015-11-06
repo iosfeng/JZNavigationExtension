@@ -137,10 +137,6 @@
                 __method_swizzling(self, @selector(popToRootViewControllerAnimated:), @selector(_popToRootViewControllerAnimated:));
             }
             
-            {
-                __method_swizzling(self, NSSelectorFromString(@"navigationTransitionView:didEndTransition:fromView:toView:"),@selector(_navigationTransitionView:didEndTransition:fromView:toView:));
-            }
-            
         }
     });
 }
